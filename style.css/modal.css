@@ -1,0 +1,117 @@
+.dialog__nav {
+    display: flex;
+    background-color: var(--preto );
+    padding: 1rem 0;
+    color: var(--branco);
+}
+
+.dialog__caixa {
+    display: flex;
+    padding: 0 1rem;
+}
+
+.dialog__titulo {
+    padding: 0.5rem;
+}
+
+.dialog__botao-fechar {
+    border: none;
+    background-color: transparent;
+}
+
+.icone-x {
+    color: var(--branco);
+    font-size: 1.5rem;
+    padding-left: 35rem;
+}
+
+.dialog__container {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.dialog__container-imagem {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.dialog__conteudo-layout-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.dialog__conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.dialog__conteudo-titulo {
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.dialog__texto {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--preto);
+}
+
+.dialog__preco {
+    font-size: 1.2rem;
+}
+
+.dialog__preco-subtexto {
+    font-size: 0.8rem;
+    color: #ADB5BD;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.dialog__conteudo-subtitulo {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.formulario__cores {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.formulario__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario__tamanhos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.dialog__conteudo-botao {
+    text-decoration: none;
+    text-align: center;
+    color: var(--fonte-branca);
+    width: 60%;
+    text-align: center;
+    background-color: var(--roxo);
+    padding: 10px 12px;
+    border: none;
+}
+
+

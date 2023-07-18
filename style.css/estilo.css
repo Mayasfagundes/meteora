@@ -1,0 +1,38 @@
+@import url(./cabecalho.css);
+@import url(./resert.css);
+@import url(./carrosel.css);
+@import url(./categorias.css);
+@import url(./facilidade.css);
+@import url(./contato.css);
+@import url(./produtos.css);
+@import url(./rodape.css);
+@import url(./modal.css);
+
+
+
+:root {
+    --branco: #FFFFFF;
+    --fonte-principal: "Inter";
+    --preto: #000000;
+    --cinza: #343A40;
+    --verde: #DAFF01;
+    --cor-secundaria:#212529;
+    --roxo:#9353FF;
+
+    --font-secundaria: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+font-size: 32px;
+font-weight: 500;
+color: var(--cor-secundaria);
+padding: 2rem 0 2rem 0;
+}
