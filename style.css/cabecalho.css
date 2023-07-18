@@ -1,0 +1,142 @@
+/* DESKTOP */
+
+.cabecalho {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.container__cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.item__link{
+    text-decoration: none;
+    color: var(--branco);
+    padding: 2em;
+}
+
+
+
+.cabecalho__pesquisa{
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+.cabecalho__botão{
+    background-color: transparent;
+    border: 1.5px solid var(--branco);
+    color: var(--branco);
+    font-size: 16px;
+    padding: 0.4rem;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+
+
+/* MOBILE */
+
+@media screen (max-width: 450px) and (min-width: 320px) {
+
+    .cabecalho__item,
+    .container__cabecalho-pesquisa{
+        display: none;
+    }
+
+.container__cabecalho-menu{
+    display: block;
+}
+
+
+    .search-icon {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-image: url(../img/Icon\ Color.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+      }
+      button {
+        border: solid 3px tomato;
+        border-radius: .5rem;
+        font-weight: bold;
+        width: 32px;
+        height: 32px;
+        display: none;
+        cursor: pointer;
+        background-image: url(https://github.com/RamosCarlosEduardo/Barbearia-Alura/blob/main/images/menu-burguer.png?raw=true);
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: center;
+        
+      }
+      
+      
+      
+      nav.menu-active {
+        display: block
+      }
+      
+      ul {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: stretch;
+        gap: 1rem;
+        border-radius: 5px;
+      }
+      
+      li {
+        list-style: none;
+        padding: .3rem 1rem;
+      }
+      
+      li:hover {
+        background: #0003;
+      }
+      
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      
+      li:hover a {
+        text-decoration: underline;
+      }
+      
+    
+
+}
+
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+    .item__link{
+        text-decoration: none;
+        color: var(--branco);
+        padding: 0.3rem;
+    }
+
+    .cabecalho__pesquisa{
+        width: 130px;
+    }
+
+    .cabecalho__botão{
+padding: 0.5rem;
+
+    }   
+
+}
