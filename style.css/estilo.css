@@ -18,7 +18,7 @@
     --verde: #DAFF01;
     --cor-secundaria:#212529;
     --roxo:#9353FF;
-
+    transition: color ease-out-quad .2s;
     --font-secundaria: "Josefin Sans";
 }
 
